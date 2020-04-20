@@ -14,10 +14,18 @@ To Run:
     - Window -> Developer Tools -> Output Log
     - In the Cmd window enter: WebControl.StartServer
 
+2. Enable local XHR requests in Chrome for Android:
+    - Start Chrome
+    - Enter chrome://flags
+    - Search for "Insecure origins treated as secure"
+    - Enter the URL with the IP address of computer where Unreal is running using port 8080. Example: http://192.168.1.119:8080
+    - Relaunch Chrome
+
 3. Use Chrome for Android to load web/index.html from an https website.
+    - https://russellbeattie.github.io/webxr-unreal-cinecamera-control/web/index.html
     - See instructions below to use via local web server.
 
-4. In the "WebXR Camera Control" web page, enter the IP address of computer where Unreal is running with port 8080.
+4. In the "WebXR Camera Control" web page, enter the same URL as above.
     - Example: http://192.168.1.119:8080
 
 5. Tap "Enter AR"
@@ -31,7 +39,7 @@ To Run locally:
     - Install Node (http://nodejs.org) if not installed, 
     - Open Command Prompt 
         - npm -g install serve
-        - cd to project's web directory
+        - cd to project's /web directory
         - serve . 
     - Server is running on port 5000 by default.
 
@@ -39,8 +47,9 @@ To Run locally:
     - Start Chrome
     - Enter chrome://flags
     - Search for "Insecure origins treated as secure"
-    - Enter current IP address with port 5000. Example: http://192.168.1.119:5000
+    - Enter the URL with the IP address of the page is being served, using the correct port. Example: http://192.168.1.119:5000 (note this is in addition to the above :8080 address).
     - Relaunch Chrome
+
 
 3. Load web page from computer's IP address above.
     - Example: http://192.168.1.119:5000
