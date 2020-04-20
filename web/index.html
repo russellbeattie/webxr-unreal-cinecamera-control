@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+    <title>WebXR Camera Control</title>
+    <style>
+      body{
+        font-family: sans-serif;
+      }
+      button {
+        margin: 20px;
+        border: 1px solid #000;
+        font-size: 1.2em;
+        padding: 5px;
+      }
+      #overlay {
+        text-align: center;
+      }
+      #baseUrl, #output {
+          width: 300px;
+          padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="overlay">
+      <header>
+          <h1>WebXR Camera Control</h1>
+          Unreal Computer Url: <input id="baseUrl" type="url">
+          <div id="output"></div>
+          <button id="xr-button" disabled>XR not found</button>
+      </header>
+    </div>
+    <script type="module" src="xr-camera-control.js"></script>
+  </body>
+</html>
