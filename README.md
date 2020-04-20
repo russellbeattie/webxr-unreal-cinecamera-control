@@ -59,11 +59,8 @@ To Run locally:
 
 To use the Live Link server, see the /livelink directory. It's complicated.
 
+Check out this YouTube video to see it in action: https://www.youtube.com/watch?v=V6sECkur9ak
 
-Check out this YouTube video to see it in action: 
-
-
-Forum post: 
 
 Pull Requests welcome!
 
