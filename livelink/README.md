@@ -1,6 +1,6 @@
 # webxr-unreal-cinecam-control livelink
 
-## Control an Unreal Engine CineCam with WebXR using LiveLink.
+## Control an Unreal Engine CineCamera with WebXR using LiveLink.
 
 This is for **advanced power users** who understand how to compile plugins, use LiveLink, use the command line to run a NodeJS app, etc. Unreal is a convoluted pain in the ass to get set up, so if you can't get this working, I wouldn't be surprised. But all you need is here. If you can figured out a better way to get this all working, please contact me!
 

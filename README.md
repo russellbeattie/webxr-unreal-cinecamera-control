@@ -1,6 +1,6 @@
 # webxr-unreal-cinecam-control
 
-## Control an Unreal Engine CineCam with WebXR 
+## Control an Unreal Engine CineCamera with WebXR 
 
 This uses Unreal's [Web Remote Control](https://docs.unrealengine.com/en-US/Engine/Editor/ScriptingAndAutomation/WebControl/index.html) to control a CineCamera position. 
 
